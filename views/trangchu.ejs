@@ -1,0 +1,40 @@
+<html>
+<head>
+  <meta charset="utf-8"></meta>
+  <title>BBOS Messenger</title>
+  <script src ="jquery.js"></script>
+  <script src = "/socket.io/socket.io.js"></script>
+  <script src = "xuly.js"></script>
+  <link rel="stylesheet" type ="text/css" href="layout.css"/>
+
+</head>
+<body>
+  <div id="wrapper">
+    <div id = "loginForm">
+      <h3>Please enter your name</h3>
+      <input type = "text" id="txtUserName" />
+      <input type = "button" id = "btnRegister" value="Register" />
+    </div>
+    <div id = "chatForm">
+      <div id ="left">
+        <div id="boxTitle">Users Online</div>
+        <div id="boxContent">
+        </div>
+      </div>
+      <div id ="right">
+        <div id="sayHi">
+          Hello <span id ="currentUser">Teo</span>
+          <input type="button" value="Logout" id="btnLogout">
+        </div>
+        <div id="listMessages">
+
+        </div>
+        <div>
+          <input type="text" id="txtMessage"/>
+          <input type="button" value="Send" id="btnSend"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body {background-color: #cbd0d8}
+#wrapper{width:600px margin: auto}
+#btnRegister{background-color: transparent; border: solid 1px black; margin: 5px}
+#left, #right: {min-height: 300px}
+#left {width:30%; float: left;background-color: #d3cdcd}
+#right {width:70%; float: left;background-color: #d3cdcd}
+#boxTitle{border: solid 1px black; padding: 5px; text-align: center; font-weight: bold}
+#boxContent{border: solid 1px black; border-top: none; padding: 5px; text-align: center}
+#sayHi{text-align: right}
+#listMessages{height: 200px;background-color: #f7f4f4}
+#txtMessage{background-color: transparent; border: solid 1px black}
